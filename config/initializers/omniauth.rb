@@ -1,3 +1,3 @@
 Rails.application.config.middleware.use OmniAuth::Builder do
-  provider :flickr, ENV['FLICKR_KEY'], ENV['FLICKR_SECRET'], scope: 'delete'
+  provider :github, ENV['GITHUB_KEY'], ENV['GITHUB_SECRET'], scope: 'delete'
 end

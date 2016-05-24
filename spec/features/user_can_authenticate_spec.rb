@@ -1,6 +1,6 @@
 require "rails_helper"
 
-RSpec.feature "User logs in with Flickr credentials" do
+RSpec.feature "User logs in with Github credentials" do
   scenario "existing user is logged in" do
     user = create(:user, uid: "1234", username: "user")
     expect(User.all.count).to eq(1)
@@ -17,10 +17,10 @@ RSpec.feature "User logs in with Flickr credentials" do
 
   scenario "new user is created" do
     expect(User.all.count).to eq(0)
-    # visit flickr_login_path
-    #
-    # expect(current_path).to eq(root_path)
-    # expect(page).to have_content("Welcome, user")
-    # expect(User.all.count).to eq(1)
+    visit github_login_path
+
+    expect(current_path).to eq(root_path)
+    expect(page).to have_content("Welcome, user")
+    expect(User.all.count).to eq(1)
   end
 end

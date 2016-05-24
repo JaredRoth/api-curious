@@ -21,9 +21,13 @@ RSpec.configure do |config|
 
   OmniAuth.config.test_mode = true
   OmniAuth.config.add_mock(
-    :flickr,
+    :github,
     info: {
       email: "user@example.com",
       nickname: "user"
+    },
+    credentials: {
+      token: "1234",
+      secret: "1234"
     })
 end
