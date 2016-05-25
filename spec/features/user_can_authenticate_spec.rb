@@ -2,9 +2,10 @@ require "rails_helper"
 
 RSpec.feature "User logs in with Github credentials" do
   scenario "existing user is logged in" do
-    user = create(:user, uid: "1234", username: "user")
+    expect(User.all.count).to eq(0)
+    user = create(:user, username: "user")
     expect(User.all.count).to eq(1)
-    expect(User.first.uid).to eq("1234")
+    expect(User.first.username).to eq("user")
 
     visit root_path
     click_on("Login")
