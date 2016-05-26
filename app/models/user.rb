@@ -13,6 +13,14 @@ class User < ActiveRecord::Base
     GithubService.new(self).user_info
   end
 
+  def orgs
+    GithubService.new(self).org_info
+  end
+
+  def repos
+    GithubService.new(self).repo_info
+  end
+  
   # def commit_total
   #   event_hash = GithubService.new(self).event_info
   #   event_hash.map do |event|
@@ -22,7 +30,7 @@ class User < ActiveRecord::Base
   #   end.compact.reduce(:+)
   # end
 
-  def repos
+  def commits
     event_hash = GithubService.new(self).event_info
     event_hash.each_with_object(Hash.new(0)) do |event, hash|
       if event[:type] == "PushEvent" || event[:type] == "CreateEvent"

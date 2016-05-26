@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 26 May 2016 17:10:18 GMT
+      - Thu, 26 May 2016 17:10:23 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -31,7 +31,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '60'
       X-Ratelimit-Remaining:
-      - '25'
+      - '14'
       X-Ratelimit-Reset:
       - '1464282727'
       Cache-Control:
@@ -61,15 +61,15 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Served-By:
-      - a51acaae89a7607fd7ee967627be18e4
+      - 13d09b732ebe76f892093130dc088652
       X-Github-Request-Id:
-      - AE1D32E0:1C0BF:47C6BDC:57472DFA
+      - AE1D32E0:1C0C5:15A0204A:57472DFF
     body:
       encoding: ASCII-8BIT
       string: '{"login":"JaredRoth","id":11217220,"avatar_url":"https://avatars.githubusercontent.com/u/11217220?v=3","gravatar_id":"","url":"https://api.github.com/users/JaredRoth","html_url":"https://github.com/JaredRoth","followers_url":"https://api.github.com/users/JaredRoth/followers","following_url":"https://api.github.com/users/JaredRoth/following{/other_user}","gists_url":"https://api.github.com/users/JaredRoth/gists{/gist_id}","starred_url":"https://api.github.com/users/JaredRoth/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/JaredRoth/subscriptions","organizations_url":"https://api.github.com/users/JaredRoth/orgs","repos_url":"https://api.github.com/users/JaredRoth/repos","events_url":"https://api.github.com/users/JaredRoth/events{/privacy}","received_events_url":"https://api.github.com/users/JaredRoth/received_events","type":"User","site_admin":false,"name":"Jared
         Roth","company":null,"blog":null,"location":null,"email":"jared.roth@gmail.com","hireable":null,"bio":null,"public_repos":29,"public_gists":7,"followers":9,"following":2,"created_at":"2015-02-26T19:00:16Z","updated_at":"2016-04-27T23:11:20Z"}'
     http_version: 
-  recorded_at: Thu, 26 May 2016 17:10:18 GMT
+  recorded_at: Thu, 26 May 2016 17:10:23 GMT
 - request:
     method: get
     uri: https://api.github.com/users/jaredroth/orgs
@@ -91,7 +91,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 26 May 2016 17:10:19 GMT
+      - Thu, 26 May 2016 17:10:23 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -101,7 +101,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '60'
       X-Ratelimit-Remaining:
-      - '24'
+      - '13'
       X-Ratelimit-Reset:
       - '1464282727'
       Cache-Control:
@@ -129,14 +129,14 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Served-By:
-      - a7f8a126c9ed3f1c4715a34c0ddc7290
+      - bd82876e9bf04990f289ba22f246ee9b
       X-Github-Request-Id:
-      - AE1D32E0:1C0C2:AAC73F2:57472DFA
+      - AE1D32E0:1C0C0:5ACF5F6:57472DFF
     body:
       encoding: UTF-8
       string: "[]"
     http_version: 
-  recorded_at: Thu, 26 May 2016 17:10:19 GMT
+  recorded_at: Thu, 26 May 2016 17:10:23 GMT
 - request:
     method: get
     uri: https://api.github.com/users/jaredroth/events
@@ -158,7 +158,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 26 May 2016 17:10:19 GMT
+      - Thu, 26 May 2016 17:10:24 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -168,7 +168,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '60'
       X-Ratelimit-Remaining:
-      - '23'
+      - '12'
       X-Ratelimit-Reset:
       - '1464282727'
       Cache-Control:
@@ -203,9 +203,9 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Served-By:
-      - 3e3b9690823fb031da84658eb58aa83b
+      - 474556b853193c38f1b14328ce2d1b7d
       X-Github-Request-Id:
-      - AE1D32E0:1C0C6:134FB4FE:57472DFB
+      - AE1D32E0:1C0BE:3AADE99:57472DFF
     body:
       encoding: ASCII-8BIT
       string: '[{"id":"4066958633","type":"PushEvent","actor":{"id":11217220,"login":"JaredRoth","display_login":"JaredRoth","gravatar_id":"","url":"https://api.github.com/users/JaredRoth","avatar_url":"https://avatars.githubusercontent.com/u/11217220?"},"repo":{"id":59518662,"name":"JaredRoth/api-curious","url":"https://api.github.com/repos/JaredRoth/api-curious"},"payload":{"push_id":1130726335,"size":1,"distinct_size":1,"ref":"refs/heads/master","head":"c9798c576c73dcf231c6ce8c89a7454f6b82a594","before":"9e275e489b182753eadef8b91cdbf660e6bac293","commits":[{"sha":"c9798c576c73dcf231c6ce8c89a7454f6b82a594","author":{"email":"jared.roth@gmail.com","name":"Jared
@@ -268,5 +268,5 @@ http_interactions:
         ","created_at":"2016-05-19T15:56:09Z","updated_at":"2016-05-19T16:16:11Z","closed_at":"2016-05-19T16:16:11Z","merged_at":"2016-05-19T16:16:11Z","merge_commit_sha":"718b13bd81945be97c2d2e5101d9a91fec763d68","assignee":null,"milestone":null,"commits_url":"https://api.github.com/repos/kristindiannefoss/pivot/pulls/162/commits","review_comments_url":"https://api.github.com/repos/kristindiannefoss/pivot/pulls/162/comments","review_comment_url":"https://api.github.com/repos/kristindiannefoss/pivot/pulls/comments{/number}","comments_url":"https://api.github.com/repos/kristindiannefoss/pivot/issues/162/comments","statuses_url":"https://api.github.com/repos/kristindiannefoss/pivot/statuses/38abe9ce662e222c0d20f35c1ee02b6fe64065ea","head":{"label":"kristindiannefoss:footer_branch","ref":"footer_branch","sha":"38abe9ce662e222c0d20f35c1ee02b6fe64065ea","user":{"login":"kristindiannefoss","id":15794034,"avatar_url":"https://avatars.githubusercontent.com/u/15794034?v=3","gravatar_id":"","url":"https://api.github.com/users/kristindiannefoss","html_url":"https://github.com/kristindiannefoss","followers_url":"https://api.github.com/users/kristindiannefoss/followers","following_url":"https://api.github.com/users/kristindiannefoss/following{/other_user}","gists_url":"https://api.github.com/users/kristindiannefoss/gists{/gist_id}","starred_url":"https://api.github.com/users/kristindiannefoss/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/kristindiannefoss/subscriptions","organizations_url":"https://api.github.com/users/kristindiannefoss/orgs","repos_url":"https://api.github.com/users/kristindiannefoss/repos","events_url":"https://api.github.com/users/kristindiannefoss/events{/privacy}","received_events_url":"https://api.github.com/users/kristindiannefoss/received_events","type":"User","site_admin":false},"repo":{"id":58403442,"name":"pivot","full_name":"kristindiannefoss/pivot","owner":{"login":"kristindiannefoss","id":15794034,"avatar_url":"https://avatars.githubusercontent.com/u/15794034?v=3","gravatar_id":"","url":"https://api.github.com/users/kristindiannefoss","html_url":"https://github.com/kristindiannefoss","followers_url":"https://api.github.com/users/kristindiannefoss/followers","following_url":"https://api.github.com/users/kristindiannefoss/following{/other_user}","gists_url":"https://api.github.com/users/kristindiannefoss/gists{/gist_id}","starred_url":"https://api.github.com/users/kristindiannefoss/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/kristindiannefoss/subscriptions","organizations_url":"https://api.github.com/users/kristindiannefoss/orgs","repos_url":"https://api.github.com/users/kristindiannefoss/repos","events_url":"https://api.github.com/users/kristindiannefoss/events{/privacy}","received_events_url":"https://api.github.com/users/kristindiannefoss/received_events","type":"User","site_admin":false},"private":false,"html_url":"https://github.com/kristindiannefoss/pivot","description":"","fork":false,"url":"https://api.github.com/repos/kristindiannefoss/pivot","forks_url":"https://api.github.com/repos/kristindiannefoss/pivot/forks","keys_url":"https://api.github.com/repos/kristindiannefoss/pivot/keys{/key_id}","collaborators_url":"https://api.github.com/repos/kristindiannefoss/pivot/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/kristindiannefoss/pivot/teams","hooks_url":"https://api.github.com/repos/kristindiannefoss/pivot/hooks","issue_events_url":"https://api.github.com/repos/kristindiannefoss/pivot/issues/events{/number}","events_url":"https://api.github.com/repos/kristindiannefoss/pivot/events","assignees_url":"https://api.github.com/repos/kristindiannefoss/pivot/assignees{/user}","branches_url":"https://api.github.com/repos/kristindiannefoss/pivot/branches{/branch}","tags_url":"https://api.github.com/repos/kristindiannefoss/pivot/tags","blobs_url":"https://api.github.com/repos/kristindiannefoss/pivot/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/kristindiannefoss/pivot/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/kristindiannefoss/pivot/git/refs{/sha}","trees_url":"https://api.github.com/repos/kristindiannefoss/pivot/git/trees{/sha}","statuses_url":"https://api.github.com/repos/kristindiannefoss/pivot/statuses/{sha}","languages_url":"https://api.github.com/repos/kristindiannefoss/pivot/languages","stargazers_url":"https://api.github.com/repos/kristindiannefoss/pivot/stargazers","contributors_url":"https://api.github.com/repos/kristindiannefoss/pivot/contributors","subscribers_url":"https://api.github.com/repos/kristindiannefoss/pivot/subscribers","subscription_url":"https://api.github.com/repos/kristindiannefoss/pivot/subscription","commits_url":"https://api.github.com/repos/kristindiannefoss/pivot/commits{/sha}","git_commits_url":"https://api.github.com/repos/kristindiannefoss/pivot/git/commits{/sha}","comments_url":"https://api.github.com/repos/kristindiannefoss/pivot/comments{/number}","issue_comment_url":"https://api.github.com/repos/kristindiannefoss/pivot/issues/comments{/number}","contents_url":"https://api.github.com/repos/kristindiannefoss/pivot/contents/{+path}","compare_url":"https://api.github.com/repos/kristindiannefoss/pivot/compare/{base}...{head}","merges_url":"https://api.github.com/repos/kristindiannefoss/pivot/merges","archive_url":"https://api.github.com/repos/kristindiannefoss/pivot/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/kristindiannefoss/pivot/downloads","issues_url":"https://api.github.com/repos/kristindiannefoss/pivot/issues{/number}","pulls_url":"https://api.github.com/repos/kristindiannefoss/pivot/pulls{/number}","milestones_url":"https://api.github.com/repos/kristindiannefoss/pivot/milestones{/number}","notifications_url":"https://api.github.com/repos/kristindiannefoss/pivot/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/kristindiannefoss/pivot/labels{/name}","releases_url":"https://api.github.com/repos/kristindiannefoss/pivot/releases{/id}","deployments_url":"https://api.github.com/repos/kristindiannefoss/pivot/deployments","created_at":"2016-05-09T19:47:54Z","updated_at":"2016-05-19T09:28:08Z","pushed_at":"2016-05-19T16:16:11Z","git_url":"git://github.com/kristindiannefoss/pivot.git","ssh_url":"git@github.com:kristindiannefoss/pivot.git","clone_url":"https://github.com/kristindiannefoss/pivot.git","svn_url":"https://github.com/kristindiannefoss/pivot","homepage":null,"size":123627,"stargazers_count":0,"watchers_count":0,"language":"HTML","has_issues":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"forks_count":0,"mirror_url":null,"open_issues_count":17,"forks":0,"open_issues":17,"watchers":0,"default_branch":"master"}},"base":{"label":"kristindiannefoss:master","ref":"master","sha":"5e1a6c713cdc0e23d8348ff76281f03916bcc793","user":{"login":"kristindiannefoss","id":15794034,"avatar_url":"https://avatars.githubusercontent.com/u/15794034?v=3","gravatar_id":"","url":"https://api.github.com/users/kristindiannefoss","html_url":"https://github.com/kristindiannefoss","followers_url":"https://api.github.com/users/kristindiannefoss/followers","following_url":"https://api.github.com/users/kristindiannefoss/following{/other_user}","gists_url":"https://api.github.com/users/kristindiannefoss/gists{/gist_id}","starred_url":"https://api.github.com/users/kristindiannefoss/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/kristindiannefoss/subscriptions","organizations_url":"https://api.github.com/users/kristindiannefoss/orgs","repos_url":"https://api.github.com/users/kristindiannefoss/repos","events_url":"https://api.github.com/users/kristindiannefoss/events{/privacy}","received_events_url":"https://api.github.com/users/kristindiannefoss/received_events","type":"User","site_admin":false},"repo":{"id":58403442,"name":"pivot","full_name":"kristindiannefoss/pivot","owner":{"login":"kristindiannefoss","id":15794034,"avatar_url":"https://avatars.githubusercontent.com/u/15794034?v=3","gravatar_id":"","url":"https://api.github.com/users/kristindiannefoss","html_url":"https://github.com/kristindiannefoss","followers_url":"https://api.github.com/users/kristindiannefoss/followers","following_url":"https://api.github.com/users/kristindiannefoss/following{/other_user}","gists_url":"https://api.github.com/users/kristindiannefoss/gists{/gist_id}","starred_url":"https://api.github.com/users/kristindiannefoss/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/kristindiannefoss/subscriptions","organizations_url":"https://api.github.com/users/kristindiannefoss/orgs","repos_url":"https://api.github.com/users/kristindiannefoss/repos","events_url":"https://api.github.com/users/kristindiannefoss/events{/privacy}","received_events_url":"https://api.github.com/users/kristindiannefoss/received_events","type":"User","site_admin":false},"private":false,"html_url":"https://github.com/kristindiannefoss/pivot","description":"","fork":false,"url":"https://api.github.com/repos/kristindiannefoss/pivot","forks_url":"https://api.github.com/repos/kristindiannefoss/pivot/forks","keys_url":"https://api.github.com/repos/kristindiannefoss/pivot/keys{/key_id}","collaborators_url":"https://api.github.com/repos/kristindiannefoss/pivot/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/kristindiannefoss/pivot/teams","hooks_url":"https://api.github.com/repos/kristindiannefoss/pivot/hooks","issue_events_url":"https://api.github.com/repos/kristindiannefoss/pivot/issues/events{/number}","events_url":"https://api.github.com/repos/kristindiannefoss/pivot/events","assignees_url":"https://api.github.com/repos/kristindiannefoss/pivot/assignees{/user}","branches_url":"https://api.github.com/repos/kristindiannefoss/pivot/branches{/branch}","tags_url":"https://api.github.com/repos/kristindiannefoss/pivot/tags","blobs_url":"https://api.github.com/repos/kristindiannefoss/pivot/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/kristindiannefoss/pivot/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/kristindiannefoss/pivot/git/refs{/sha}","trees_url":"https://api.github.com/repos/kristindiannefoss/pivot/git/trees{/sha}","statuses_url":"https://api.github.com/repos/kristindiannefoss/pivot/statuses/{sha}","languages_url":"https://api.github.com/repos/kristindiannefoss/pivot/languages","stargazers_url":"https://api.github.com/repos/kristindiannefoss/pivot/stargazers","contributors_url":"https://api.github.com/repos/kristindiannefoss/pivot/contributors","subscribers_url":"https://api.github.com/repos/kristindiannefoss/pivot/subscribers","subscription_url":"https://api.github.com/repos/kristindiannefoss/pivot/subscription","commits_url":"https://api.github.com/repos/kristindiannefoss/pivot/commits{/sha}","git_commits_url":"https://api.github.com/repos/kristindiannefoss/pivot/git/commits{/sha}","comments_url":"https://api.github.com/repos/kristindiannefoss/pivot/comments{/number}","issue_comment_url":"https://api.github.com/repos/kristindiannefoss/pivot/issues/comments{/number}","contents_url":"https://api.github.com/repos/kristindiannefoss/pivot/contents/{+path}","compare_url":"https://api.github.com/repos/kristindiannefoss/pivot/compare/{base}...{head}","merges_url":"https://api.github.com/repos/kristindiannefoss/pivot/merges","archive_url":"https://api.github.com/repos/kristindiannefoss/pivot/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/kristindiannefoss/pivot/downloads","issues_url":"https://api.github.com/repos/kristindiannefoss/pivot/issues{/number}","pulls_url":"https://api.github.com/repos/kristindiannefoss/pivot/pulls{/number}","milestones_url":"https://api.github.com/repos/kristindiannefoss/pivot/milestones{/number}","notifications_url":"https://api.github.com/repos/kristindiannefoss/pivot/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/kristindiannefoss/pivot/labels{/name}","releases_url":"https://api.github.com/repos/kristindiannefoss/pivot/releases{/id}","deployments_url":"https://api.github.com/repos/kristindiannefoss/pivot/deployments","created_at":"2016-05-09T19:47:54Z","updated_at":"2016-05-19T09:28:08Z","pushed_at":"2016-05-19T16:16:11Z","git_url":"git://github.com/kristindiannefoss/pivot.git","ssh_url":"git@github.com:kristindiannefoss/pivot.git","clone_url":"https://github.com/kristindiannefoss/pivot.git","svn_url":"https://github.com/kristindiannefoss/pivot","homepage":null,"size":123627,"stargazers_count":0,"watchers_count":0,"language":"HTML","has_issues":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"forks_count":0,"mirror_url":null,"open_issues_count":17,"forks":0,"open_issues":17,"watchers":0,"default_branch":"master"}},"_links":{"self":{"href":"https://api.github.com/repos/kristindiannefoss/pivot/pulls/162"},"html":{"href":"https://github.com/kristindiannefoss/pivot/pull/162"},"issue":{"href":"https://api.github.com/repos/kristindiannefoss/pivot/issues/162"},"comments":{"href":"https://api.github.com/repos/kristindiannefoss/pivot/issues/162/comments"},"review_comments":{"href":"https://api.github.com/repos/kristindiannefoss/pivot/pulls/162/comments"},"review_comment":{"href":"https://api.github.com/repos/kristindiannefoss/pivot/pulls/comments{/number}"},"commits":{"href":"https://api.github.com/repos/kristindiannefoss/pivot/pulls/162/commits"},"statuses":{"href":"https://api.github.com/repos/kristindiannefoss/pivot/statuses/38abe9ce662e222c0d20f35c1ee02b6fe64065ea"}},"merged":true,"mergeable":null,"mergeable_state":"unknown","merged_by":{"login":"JaredRoth","id":11217220,"avatar_url":"https://avatars.githubusercontent.com/u/11217220?v=3","gravatar_id":"","url":"https://api.github.com/users/JaredRoth","html_url":"https://github.com/JaredRoth","followers_url":"https://api.github.com/users/JaredRoth/followers","following_url":"https://api.github.com/users/JaredRoth/following{/other_user}","gists_url":"https://api.github.com/users/JaredRoth/gists{/gist_id}","starred_url":"https://api.github.com/users/JaredRoth/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/JaredRoth/subscriptions","organizations_url":"https://api.github.com/users/JaredRoth/orgs","repos_url":"https://api.github.com/users/JaredRoth/repos","events_url":"https://api.github.com/users/JaredRoth/events{/privacy}","received_events_url":"https://api.github.com/users/JaredRoth/received_events","type":"User","site_admin":false},"comments":0,"review_comments":0,"commits":7,"additions":191,"deletions":140,"changed_files":12}},"public":true,"created_at":"2016-05-19T16:16:11Z"},{"id":"4036730364","type":"PushEvent","actor":{"id":11217220,"login":"JaredRoth","gravatar_id":"","url":"https://api.github.com/users/JaredRoth","avatar_url":"https://avatars.githubusercontent.com/u/11217220?"},"repo":{"id":58403442,"name":"kristindiannefoss/pivot","url":"https://api.github.com/repos/kristindiannefoss/pivot"},"payload":{"push_id":1119706025,"size":1,"distinct_size":1,"ref":"refs/heads/footer_branch","head":"38abe9ce662e222c0d20f35c1ee02b6fe64065ea","before":"599314316a56450e409ffe31a14df70b3fb9f417","commits":[{"sha":"38abe9ce662e222c0d20f35c1ee02b6fe64065ea","author":{"email":"JaredRoth@users.noreply.github.com","name":"Jared
         Roth"},"message":"Update .gitignore\n\nAdd /coverage to .gitignore","distinct":true,"url":"https://api.github.com/repos/kristindiannefoss/pivot/commits/38abe9ce662e222c0d20f35c1ee02b6fe64065ea"}]},"public":true,"created_at":"2016-05-19T16:10:47Z"}]'
     http_version: 
-  recorded_at: Thu, 26 May 2016 17:10:19 GMT
+  recorded_at: Thu, 26 May 2016 17:10:24 GMT
 recorded_with: VCR 3.0.3

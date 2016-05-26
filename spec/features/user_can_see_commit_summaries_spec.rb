@@ -10,7 +10,7 @@ RSpec.feature "User views profile page" do
     within(".commits") do
       expect(page).to have_content("Contribution Activity")
       # expect(page).to have_content("14 commits")
-      expect(page).to have_content("Pushed 7 to JaredRoth/api-curious")
+      expect(page).to have_content("Pushed 8 to JaredRoth/api-curious")
       expect(page).to have_content("Pushed 2 to JaredRoth/oauth-workshop")
       expect(page).to have_content("Pushed 2 to JaredRoth/pokemon-cli")
       expect(page).to have_content("Pushed 9 to kristindiannefoss/pivot")

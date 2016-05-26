@@ -1,0 +1,6 @@
+<h1><%= @user.username %>'s Repositories</h1>
+<% @user.repos.each do |repo| %>
+  <div class="<%= repo[:name] %>">
+    <%= link_to repo[:name], repo[:html_url] %>
+  </div>
+<% end %>

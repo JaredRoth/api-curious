@@ -13,8 +13,24 @@
   </div>
 </div>
 <div class="commits">
-  Contribution Activity
-  <% @user.repos.each_pair do |key, value| %>
+  <h3>Contribution Activity</h3>
+  <% @user.commits.each_pair do |key, value| %>
     <div>Pushed <%= value %> to <%= key %></div>
   <% end %>
+</div>
+<div id="orgs">
+  <h3>Member of:</h3>
+  <% if @orgs.empty? %>
+    Not a single Organization
+  <% else %>
+    <% @orgs.each do |org| %>
+      <div class="<%= org[:login] %>">
+        <a href="<%= org[:url] %>"><img src="<%= org[:avatar_url] %>" alt="<%= org[:login] %>" /></a>
+        <div><%= org[:login] %></div>
+      </div>
+    <% end %>
+  <% end %>
+</div>
+<div id="repos">
+  <%= link_to "Repositories", user_repo_path %>
 </div>

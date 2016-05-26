@@ -9,6 +9,10 @@ class GithubService
     parse(get_user_info)
   end
 
+  def org_info
+    parse(get_org_info)
+  end
+
   def event_info
     parse(get_event_info)
   end
@@ -21,10 +25,18 @@ class GithubService
     parse(get_followed_info(username))
   end
 
+  def repo_info
+    parse(get_repo_info)
+  end
+
   private
 
     def get_user_info
       @connection.get "users/#{@user.username}"
+    end
+
+    def get_org_info
+      @connection.get "users/#{@user.username}/orgs"
     end
 
     def get_event_info
@@ -37,6 +49,10 @@ class GithubService
 
     def get_followed_info(username)
       @connection.get "users/#{username}/events"
+    end
+
+    def get_repo_info
+      @connection.get "users/#{@user.username}/repos"
     end
 
     def parse(response)
