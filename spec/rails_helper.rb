@@ -24,7 +24,7 @@ RSpec.configure do |config|
     :github,
     info: {
       email: "user@example.com",
-      nickname: "user"
+      nickname: "jaredroth"
     },
     credentials: {
       token: "1234",

@@ -8,4 +8,8 @@ class User < ActiveRecord::Base
     user.save
     user
   end
+
+  def info
+    GithubService.new(self).user_info
+  end
 end

@@ -1,0 +1,283 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.github.com/users/jaredroth
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Thu, 26 May 2016 00:22:41 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '60'
+      X-Ratelimit-Remaining:
+      - '49'
+      X-Ratelimit-Reset:
+      - '1464224668'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Vary:
+      - Accept
+      - Accept-Encoding
+      Etag:
+      - W/"8af44dfd375676ee677e5f3fdb1cef38"
+      Last-Modified:
+      - Wed, 27 Apr 2016 23:11:20 GMT
+      X-Github-Media-Type:
+      - github.v3
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - 2811da37fbdda4367181b328b22b2499
+      X-Github-Request-Id:
+      - AE1D32E0:7F8E:AEC2E88:574641D1
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"JaredRoth","id":11217220,"avatar_url":"https://avatars.githubusercontent.com/u/11217220?v=3","gravatar_id":"","url":"https://api.github.com/users/JaredRoth","html_url":"https://github.com/JaredRoth","followers_url":"https://api.github.com/users/JaredRoth/followers","following_url":"https://api.github.com/users/JaredRoth/following{/other_user}","gists_url":"https://api.github.com/users/JaredRoth/gists{/gist_id}","starred_url":"https://api.github.com/users/JaredRoth/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/JaredRoth/subscriptions","organizations_url":"https://api.github.com/users/JaredRoth/orgs","repos_url":"https://api.github.com/users/JaredRoth/repos","events_url":"https://api.github.com/users/JaredRoth/events{/privacy}","received_events_url":"https://api.github.com/users/JaredRoth/received_events","type":"User","site_admin":false,"name":"Jared
+        Roth","company":null,"blog":null,"location":null,"email":"jared.roth@gmail.com","hireable":null,"bio":null,"public_repos":29,"public_gists":7,"followers":9,"following":2,"created_at":"2015-02-26T19:00:16Z","updated_at":"2016-04-27T23:11:20Z"}'
+    http_version: 
+  recorded_at: Thu, 26 May 2016 00:22:40 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/jaredroth
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Thu, 26 May 2016 00:22:41 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '60'
+      X-Ratelimit-Remaining:
+      - '48'
+      X-Ratelimit-Reset:
+      - '1464224668'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Vary:
+      - Accept
+      - Accept-Encoding
+      Etag:
+      - W/"8af44dfd375676ee677e5f3fdb1cef38"
+      Last-Modified:
+      - Wed, 27 Apr 2016 23:11:20 GMT
+      X-Github-Media-Type:
+      - github.v3
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - b0ef53392caa42315c6206737946d931
+      X-Github-Request-Id:
+      - AE1D32E0:7F8D:7BBBDF8:574641D1
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"JaredRoth","id":11217220,"avatar_url":"https://avatars.githubusercontent.com/u/11217220?v=3","gravatar_id":"","url":"https://api.github.com/users/JaredRoth","html_url":"https://github.com/JaredRoth","followers_url":"https://api.github.com/users/JaredRoth/followers","following_url":"https://api.github.com/users/JaredRoth/following{/other_user}","gists_url":"https://api.github.com/users/JaredRoth/gists{/gist_id}","starred_url":"https://api.github.com/users/JaredRoth/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/JaredRoth/subscriptions","organizations_url":"https://api.github.com/users/JaredRoth/orgs","repos_url":"https://api.github.com/users/JaredRoth/repos","events_url":"https://api.github.com/users/JaredRoth/events{/privacy}","received_events_url":"https://api.github.com/users/JaredRoth/received_events","type":"User","site_admin":false,"name":"Jared
+        Roth","company":null,"blog":null,"location":null,"email":"jared.roth@gmail.com","hireable":null,"bio":null,"public_repos":29,"public_gists":7,"followers":9,"following":2,"created_at":"2015-02-26T19:00:16Z","updated_at":"2016-04-27T23:11:20Z"}'
+    http_version: 
+  recorded_at: Thu, 26 May 2016 00:22:41 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/jaredroth
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Thu, 26 May 2016 00:22:42 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '60'
+      X-Ratelimit-Remaining:
+      - '47'
+      X-Ratelimit-Reset:
+      - '1464224668'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Vary:
+      - Accept
+      - Accept-Encoding
+      Etag:
+      - W/"8af44dfd375676ee677e5f3fdb1cef38"
+      Last-Modified:
+      - Wed, 27 Apr 2016 23:11:20 GMT
+      X-Github-Media-Type:
+      - github.v3
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - a7f8a126c9ed3f1c4715a34c0ddc7290
+      X-Github-Request-Id:
+      - AE1D32E0:7F91:1605188C:574641D1
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"JaredRoth","id":11217220,"avatar_url":"https://avatars.githubusercontent.com/u/11217220?v=3","gravatar_id":"","url":"https://api.github.com/users/JaredRoth","html_url":"https://github.com/JaredRoth","followers_url":"https://api.github.com/users/JaredRoth/followers","following_url":"https://api.github.com/users/JaredRoth/following{/other_user}","gists_url":"https://api.github.com/users/JaredRoth/gists{/gist_id}","starred_url":"https://api.github.com/users/JaredRoth/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/JaredRoth/subscriptions","organizations_url":"https://api.github.com/users/JaredRoth/orgs","repos_url":"https://api.github.com/users/JaredRoth/repos","events_url":"https://api.github.com/users/JaredRoth/events{/privacy}","received_events_url":"https://api.github.com/users/JaredRoth/received_events","type":"User","site_admin":false,"name":"Jared
+        Roth","company":null,"blog":null,"location":null,"email":"jared.roth@gmail.com","hireable":null,"bio":null,"public_repos":29,"public_gists":7,"followers":9,"following":2,"created_at":"2015-02-26T19:00:16Z","updated_at":"2016-04-27T23:11:20Z"}'
+    http_version: 
+  recorded_at: Thu, 26 May 2016 00:22:41 GMT
+- request:
+    method: get
+    uri: https://api.github.com/users/jaredroth
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Thu, 26 May 2016 00:22:42 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '60'
+      X-Ratelimit-Remaining:
+      - '46'
+      X-Ratelimit-Reset:
+      - '1464224668'
+      Cache-Control:
+      - public, max-age=60, s-maxage=60
+      Vary:
+      - Accept
+      - Accept-Encoding
+      Etag:
+      - W/"8af44dfd375676ee677e5f3fdb1cef38"
+      Last-Modified:
+      - Wed, 27 Apr 2016 23:11:20 GMT
+      X-Github-Media-Type:
+      - github.v3
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Served-By:
+      - 4c8b2d4732c413f4b9aefe394bd65569
+      X-Github-Request-Id:
+      - AE1D32E0:7F8C:550ADAE:574641D2
+    body:
+      encoding: ASCII-8BIT
+      string: '{"login":"JaredRoth","id":11217220,"avatar_url":"https://avatars.githubusercontent.com/u/11217220?v=3","gravatar_id":"","url":"https://api.github.com/users/JaredRoth","html_url":"https://github.com/JaredRoth","followers_url":"https://api.github.com/users/JaredRoth/followers","following_url":"https://api.github.com/users/JaredRoth/following{/other_user}","gists_url":"https://api.github.com/users/JaredRoth/gists{/gist_id}","starred_url":"https://api.github.com/users/JaredRoth/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/JaredRoth/subscriptions","organizations_url":"https://api.github.com/users/JaredRoth/orgs","repos_url":"https://api.github.com/users/JaredRoth/repos","events_url":"https://api.github.com/users/JaredRoth/events{/privacy}","received_events_url":"https://api.github.com/users/JaredRoth/received_events","type":"User","site_admin":false,"name":"Jared
+        Roth","company":null,"blog":null,"location":null,"email":"jared.roth@gmail.com","hireable":null,"bio":null,"public_repos":29,"public_gists":7,"followers":9,"following":2,"created_at":"2015-02-26T19:00:16Z","updated_at":"2016-04-27T23:11:20Z"}'
+    http_version: 
+  recorded_at: Thu, 26 May 2016 00:22:41 GMT
+recorded_with: VCR 3.0.3
