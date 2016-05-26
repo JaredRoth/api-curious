@@ -1,0 +1,3 @@
+class UserData < OpenStruct
+  
+end

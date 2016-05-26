@@ -1,0 +1,6 @@
+<div class="commits">
+  <%= params[:username] %>'s Contribution Activity
+  <% @info.each_pair do |key, value| %>
+    <div>Pushed <%= value %> to <%= key %></div>
+  <% end %>
+</div>

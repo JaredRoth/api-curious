@@ -1,0 +1,11 @@
+<h1>Followed Activity</h1>
+<% @user.following.each do |followed| %>
+  <div class="<%= followed[:username] %>">
+    <a href="<%= following_activity_path(followed[:username]) %>">
+      <img src="<%= followed[:avatar_url] %>" alt="<%= followed[:username] %>" />
+    </a>
+    <a href="<%= following_activity_path(followed[:username]) %>">
+      <%= followed[:username] %>
+    </a>
+  </div>
+<% end %>

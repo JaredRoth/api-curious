@@ -1,11 +1,20 @@
-<h1>The Profile Page</h1>
-<div id="starred">
-  <%= @user.info[:starred] %>
+<div class="profile">
+  <img src="<%= @info[:avatar_url] %>" alt="Whatup" />
+  <div class="basic-stats">
+    <span id="followers">
+      Followers: <%= @info[:followers] %>
+    </span>
+    <span id="starred">
+      Starred: <%= @info[:starred] %>
+    </span>
+    <span id="following">
+      <%= link_to "Following: #{@info[:following]}", following_path %>
+    </span>
+  </div>
 </div>
-<div id="followers">
-  <%= @user.info[:followers] %>
+<div class="commits">
+  Contribution Activity
+  <% @user.repos.each_pair do |key, value| %>
+    <div>Pushed <%= value %> to <%= key %></div>
+  <% end %>
 </div>
-<div id="following">
-  <%= @user.info[:following] %>
-</div>
-<img src="https://avatars.githubusercontent.com/u/11217220?v=3" alt="Whatup" />

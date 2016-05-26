@@ -5,4 +5,6 @@ Rails.application.routes.draw do
   get "/auth/github/callback", to: "sessions#create"
 
   resource :users, only: [:show]
+  get "/profile/following", to: "users#following", as: :following
+  get "/profile/following/:username", to: "users#activity", as: :following_activity
 end
