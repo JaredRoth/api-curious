@@ -3,9 +3,12 @@
     <div class="bar">
       <a class="brand-logo">API Curious</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <% if current_user %>
+          <li>Welcome, <%= current_user.username %></li>
+        <% end %>
         <li>
           <% if current_user %>
-            Welcome, <%= current_user.username %>
+            <%= link_to "Logout", logout_path, method: :delete %>
           <% else %>
             <%= link_to "Login", github_login_path %>
           <% end %>
