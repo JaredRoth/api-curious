@@ -20,7 +20,7 @@ class User < ActiveRecord::Base
   def repos
     GithubService.new(self).repo_info
   end
-  
+
   # def commit_total
   #   event_hash = GithubService.new(self).event_info
   #   event_hash.map do |event|
@@ -51,7 +51,7 @@ class User < ActiveRecord::Base
   def following
     list = GithubService.new(self).followed_list
     list.map do |info|
-      {username: info[:login], avatar: info[:avatar_url]}
+      {username: info[:login], avatar_url: info[:avatar_url]}
     end
   end
 end
